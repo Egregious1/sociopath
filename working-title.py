@@ -23,14 +23,17 @@ def introStory():
     print('      "You only care about yourself!"')
     print('\n' * 2)
     print('"We are not friends anymore..."')
+    input('press enter')
     print('\n' * 6)
     print('          sociopath sō′sē-ə-păth″')
     print('     someone with a sociopathic personality; a person with an antisocial personality disorder [psychopath was once widely used but has now been superseded by sociopath]')
+    input('press enter')
     print('\n' * 6)
     print('Its half past noon and you have been asleep for what feels like days.')
     print('you wake up to a dark room that smells of metal, mold, chemicals,')
     print(' and a faint smell of rotting food')
     print('\n' * 2)
+    input('press enter')
 
 
 
