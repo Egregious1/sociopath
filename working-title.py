@@ -48,22 +48,44 @@ def introStory():
     print('Carefully you move through the room past all the tools and bottles')
     print(' ')
     print('You flip the light switch to the bathroom')
-    print(' ')
+    print('\n' * 4)
     print('                    Click!')
+    print('\n' * 2)
     input('press enter')
+    print('\n' * 6)
+    print('The light blinds you and the smell of shit wafts into your nose')
+    print(' ')
+    print('The same stale shit thats been stuck to the side of the bowl is still there')
+    print(' ')
+    print('The familiar words "I will clean that later"')
+    print(' ')
+    print('You dont even believe your own bullshit anymore...')
+    print('\n' * 2)
+    input('                     press enter')
+    print('\n' * 6)
+    print('==============================================')
+    print('\n' * 6)
 
 # using old code from frist game to make this simple path input.
-def choosePath():
-    path = input('What do you choose? [L or R] ')
-    if path == 'L' or path == 'l':
+def introPath():
+    print('\n' * 2)
+    path = input('Do you stay inside or try to leave...')
+    if path == 'leave' or path == 'Leave':
         print('predictable')
-    elif path == 'R' or path == 'r':
+    elif path == 'Stay' or path == 'stay':
         print('Afraid of change?')
     else:
-        if path != 'l' or path != 'L' or path != 'r' or path != 'R':
-            print('try again')
+        if path != 'Leave' or path != 'leave' or path != 'Stay' or path != 'stay':
+            print('\n' * 2)
+            print('leave or stay?')
             print(' ')
-            choosePath()
+            introPath()
+
+def pathLeave():
+    print('\n' * 2)
+    print('You try to make youself as clean as possible with out making much effort')
+    print(' ')
+    print()
 
 
 
@@ -74,5 +96,6 @@ titleScreen()
 print('============================')
 print('\n' * 6)
 introStory()
+introPath()
 
 
