@@ -25,13 +25,13 @@ def introStory():
     print('\n' * 2)
     print('"We are not friends anymore..."')
     print('\n' * 2)
-    input('press enter')
+    input('                     press enter')
     print('\n' * 6)
     print('          sociopath sō′sē-ə-păth″')
     print('\n' * 2)
     print('     someone with a sociopathic personality; a person with an antisocial personality disorder [psychopath was once widely used but has now been superseded by sociopath]')
     print('\n' * 2)    
-    input('press enter')
+    input('                     press enter')
     print('\n' * 6)
     print('Its half past noon and you have been asleep for what feels like days.')
     print(' ')
@@ -39,7 +39,7 @@ def introStory():
     print(' ')
     print(' and a faint smell of rotting food')
     print('\n' * 2)
-    input('press enter')
+    input('                     press enter')
     print('\n' * 6) 
     print('You ask yourself "Why do I keep living like this?"')
     print(' ')
@@ -51,7 +51,7 @@ def introStory():
     print('\n' * 4)
     print('                    Click!')
     print('\n' * 2)
-    input('press enter')
+    input('                     press enter')
     print('\n' * 6)
     print('The light blinds you and the smell of shit wafts into your nose')
     print(' ')
@@ -72,6 +72,7 @@ def introPath():
     path = input('Do you stay inside or try to leave...')
     if path == 'leave' or path == 'Leave':
         print('predictable')
+        pathLeave()
     elif path == 'Stay' or path == 'stay':
         print('Afraid of change?')
     else:
@@ -81,11 +82,20 @@ def introPath():
             print(' ')
             introPath()
 
+# first path to be fleshed out. still linear
 def pathLeave():
     print('\n' * 2)
     print('You try to make youself as clean as possible with out making much effort')
     print(' ')
-    print()
+    print('You open the door and realize no one is home')
+    print(' ')
+    print('The rest of the aprtment is dark and lifeless except for a couple cats')
+    print(' ')
+    print('"I should get my own pet..."')
+    print(' ')
+    print('The thought leaves you as quickly as it came...')
+    print('\n' * 6)
+    input('                     press enter')
 
 
 
