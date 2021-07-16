@@ -108,15 +108,14 @@ def pathLeave():
     print('You stand there in your shame and ask yourself what you should do today')
     print('\n' * 2)
     print('"I could go find a job or go across the street and hang out at the garage')
-    firstPath()
+
 
 # this should be the first major path choice
 def firstPath():
     print('\n' * 2)
-    path = input('Do you look for  or go to the garage?(work or garage)')
+    path = input('Do you look for  or go to the garage?(work or garage): ')
     if path == 'work' or path == 'Work':
         print('that will be the day...')
-        pathLeave()
     elif path == 'garage' or path == 'Garage':
         print('All the time in the world huh?')
     else:
@@ -135,5 +134,5 @@ print('============================')
 print('\n' * 6)
 introStory()
 introPath()
-
+firstPath()
 
