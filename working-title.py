@@ -2,13 +2,13 @@
 
 def titleScreen():
     print('==============================')
-    print('=                            =')
-    print('=                            =')
-    print('=     Working title          =')
-    print('=                            =')
-    print('=                            =')
-    print('=                            =')
-    print('=                            =')
+    print('(                            )')
+    print('(                            )')
+    print('(     Working title          )')
+    print('(                            )')
+    print('(                            )')
+    print('(                            )')
+    print('(                            )')
     print('==============================')
     print('\n' * 2)
     playerName = input('What is your name? ')
@@ -96,7 +96,35 @@ def pathLeave():
     print('The thought leaves you as quickly as it came...')
     print('\n' * 6)
     input('                     press enter')
+    print('\n' * 6)
+    print('Its been 4 months since you have had an actual job')
+    print(' ')
+    print('Your roommates have told you time and again to "get your shit together"')
+    print(' ')
+    print('As usual you just ignore it and act like nothing is wrong...')
+    print('\n' * 2)
+    input('press enter')
+    print('\n' * 2)
+    print('You stand there in your shame and ask yourself what you should do today')
+    print('\n' * 2)
+    print('"I could go find a job or go across the street and hang out at the garage')
+    firstPath()
 
+# this should be the first major path choice
+def firstPath():
+    print('\n' * 2)
+    path = input('Do you look for  or go to the garage?(work or garage)')
+    if path == 'work' or path == 'Work':
+        print('that will be the day...')
+        pathLeave()
+    elif path == 'garage' or path == 'Garage':
+        print('All the time in the world huh?')
+    else:
+        if path != 'work' or path != 'Work' or path != 'Garage' or path != 'garage':
+            print('\n' * 2)
+            print('Work or Garage?')
+            print(' ')
+            firstPath()
 
 
 
