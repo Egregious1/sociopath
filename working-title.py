@@ -103,7 +103,7 @@ def pathLeave():
     print(' ')
     print('As usual you just ignore it and act like nothing is wrong...')
     print('\n' * 2)
-    input('press enter')
+    input('                     press enter')
     print('\n' * 2)
     print('You stand there in your shame and ask yourself what you should do today')
     print('\n' * 2)
@@ -116,6 +116,7 @@ def firstPath():
     path = input('Do you look for  or go to the garage?(work or garage): ')
     if path == 'work' or path == 'Work':
         print('that will be the day...')
+        input('                     press enter')
     elif path == 'garage' or path == 'Garage':
         print('All the time in the world huh?')
     else:
@@ -124,6 +125,32 @@ def firstPath():
             print('Work or Garage?')
             print(' ')
             firstPath()
+
+# work path
+def workPath():
+    print('\n' * 2)
+    print('You decide you are going to make good on your promise of finding a job')
+    print(' ')
+    print('you grab your keys after putting on your shoes and head out the door')
+    print(' ')
+    input('                     press enter')
+    print('\n' * 2)
+    print('You walk out the door and make your way downstairs to your car')
+    print(' ')
+    print('You enter you car and put your keys into the ignition')
+    print(' ')
+    print('                    Click!')
+    print(' ')
+    input('                     press enter')
+    print('\n' * 2)
+    print('"Fuck!" you yell out "This shit always happens to me!"')
+    print(' ')
+    print('You have spent the last 3 months attempting to fix your car but in your')
+    print('laziness you just never got around to it')
+    print('\n' * 2)
+    input('                     press enter')
+    print('\n' * 2)
+
 
 
 
