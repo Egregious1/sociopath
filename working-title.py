@@ -1,5 +1,7 @@
 #Attempt two at making a text based game. The first one was directionless and more for building foundation this one should prove better than the last.
 
+# should really consider changing the dialouge to input commands and remove the press enter inputs...
+
 def titleScreen():
     print('==============================')
     print('(                            )')
@@ -119,6 +121,8 @@ def firstPath():
         input('                     press enter')
     elif path == 'garage' or path == 'Garage':
         print('All the time in the world huh?')
+        print('\n' * 4)
+        garagePath()
     else:
         if path != 'work' or path != 'Work' or path != 'Garage' or path != 'garage':
             print('\n' * 2)
@@ -150,6 +154,20 @@ def workPath():
     print('\n' * 2)
     input('                     press enter')
     print('\n' * 2)
+
+# garagePath section
+def garagePath():
+    print('\n' * 2)
+    print('As usual you make your way down to the garage to waste time')
+    print(' ')
+    print('You have convinced yourself that the owner is going to give you job')
+    print(' ')
+    print('In fact he already gave you a chance at a job and you ended up getting high and sleeping in instead')
+    print(' ')
+    input('                     press enter')
+    print('\n' * 4)
+    print('                     For some reason you still think you have a chance')
+    print('\n' * 4)
 
 
 
