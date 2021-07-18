@@ -153,7 +153,14 @@ def workPath():
     print('laziness you just never got around to it')
     print('\n' * 2)
     input('                     press enter')
-    print('\n' * 2)
+    print('\n' * 4)
+    print('You start cursing at an invisible enemy that has been out to "get" you')
+    print(' ')
+    print('and you make yourself back up stairs')
+    print(' ')
+    print('At this point you decide to get high....again.')
+    # add next part of path here.
+
 
 # garagePath section
 def garagePath():
