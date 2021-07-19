@@ -175,6 +175,8 @@ def garagePath():
     print('\n' * 4)
     print('                     For some reason you still think you have a chance')
     print('\n' * 4)
+    input('                     press enter')
+    print('\n' * 4)
 
 
 
