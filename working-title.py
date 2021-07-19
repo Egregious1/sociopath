@@ -159,7 +159,24 @@ def workPath():
     print('and you make yourself back up stairs')
     print(' ')
     print('At this point you decide to get high....again.')
-    # add next part of path here.
+    print(' ')
+    print('You start feeling sorry for yourself again')
+    print(' ')
+    print(           'you keep telling yourself that everyone is out to get you')
+    print(' ')
+    print(                  'you start smoking more than you have in a long time')
+    print(' ')
+    print(                               'you hear your roommates come into the room')
+    print(' ')
+    print('"Maybe we should break down his door?" you hear from under the door.')
+    print('\n' * 2)
+    input('                     press enter')
+    print('\n' * 4)
+    print('"Oh you think youre getting in here?!" you think to yourself and you jump to action')
+    print(' ')
+    print('You immediately get up and look through you piles of clothes trash and tools to find something to bare you door from the inside')
+    print(' ')
+    
 
 
 # garagePath section
