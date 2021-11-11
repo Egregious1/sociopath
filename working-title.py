@@ -201,7 +201,21 @@ def workPath():
     print('\n' * 2)
     input('                     press enter')
     print('\n' * 4)
-    
+    print('You emerge from you filthy dungeon clothed in one sock underwear and nothing else.')
+    print(' ')
+    print('You smell terrible from days of sweating and not showering')
+    print(' ')
+    print('Josh starts first "What the fuck are you doing in there man? Where have you been for the last week we havent even seen you!"')
+    print(' ')
+    print('At this moment you realize that you have been high for a week straight and going crazy from the lack of sleep.')
+    print(' ')
+    print('You start looking around your room and realize you have been living in shit.')
+    print(' ')
+    print('A moment of clarity slaps you in the face...')
+    print('\n' * 2)
+    input('                     press enter')
+    print('\n' * 4)
+
 # garagePath section
 def garagePath():
     print('\n' * 2)
